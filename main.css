@@ -11,6 +11,7 @@ h1 {
     font-size: 1.5em;
     padding-top: 35px;
     cursor: pointer;
+    pointer-events: auto;
 }
 
 .panel-heading{
@@ -20,4 +21,9 @@ h1 {
 .list-group {
 	padding-left: 10px;
 	padding-top: 20px;
+}
+
+.col-sm-6
+{
+	padding-right: 50px;
 }
